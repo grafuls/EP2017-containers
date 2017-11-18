@@ -13,6 +13,7 @@ docker build -t jenkins:ep2017 .
 cd jenkins_slave
 docker build -t java:ep2017 .
 ```
+* Note: this container build requires the jenkins contanier to be running at the time of building
 
 ## Running the composer
 ```bash
